@@ -792,6 +792,20 @@
       "bytes": 115730,
       "sha256": "492d06d02e3f14dfeebcb76afa105d84a2c526544cc6b9b053e86bc14c82bc87",
       "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/home-books/um-coracao-para-o-rei.avif",
+      "file": "assets/home-books/um-coracao-para-o-rei.avif",
+      "bytes": 21849,
+      "sha256": "f21260212afa914011058164248a54110f5ff1b7eb6032dc116d043cbcb04676",
+      "content_type": "image/avif"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/home-books/o-cavalinho-perola.avif",
+      "file": "assets/home-books/o-cavalinho-perola.avif",
+      "bytes": 29999,
+      "sha256": "777ca6f22b712422c32fc15cac447766504d39b8da424dcc877a408a9c29af1f",
+      "content_type": "image/avif"
     }
   ]
 }

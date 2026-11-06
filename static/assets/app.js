@@ -12,6 +12,8 @@ document.querySelectorAll('[data-panel]').forEach(button=>button.addEventListene
  section.querySelectorAll('[data-global-panel]').forEach(p=>p.classList.remove('is-open'));
  if(open){button.setAttribute('aria-expanded','true');button.closest('.global-card').classList.add('selected');const panel=document.getElementById(button.dataset.panel);panel.classList.add('is-open');if(matchMedia('(max-width:640px)').matches)button.closest('.global-card').after(panel);else section.querySelector('.grid').after(panel);}
 }));
+const panelMobile=matchMedia('(max-width:640px)');
+panelMobile.addEventListener('change',()=>document.querySelectorAll('[data-global-panel].is-open').forEach(panel=>{const section=panel.closest('#trabalho-global');const card=section.querySelector('[aria-controls="'+panel.id+'"]').closest('.global-card');if(panelMobile.matches)card.after(panel);else section.querySelector('.grid').after(panel);}));
 const slides=[...document.querySelectorAll('.hero-image')],dots=[...document.querySelectorAll('[data-slide]')];let active=0,timer=null,paused=matchMedia('(prefers-reduced-motion:reduce)').matches;
 function showSlide(index){active=(index+slides.length)%slides.length;slides.forEach((s,i)=>s.classList.toggle('active',i===active));dots.forEach((b,i)=>b.setAttribute('aria-pressed',String(i===active)));}
 function clock(){clearInterval(timer);if(!paused&&slides.length&&!document.hidden)timer=setInterval(()=>showSlide(active+1),7000);}

@@ -16,8 +16,13 @@
     "url": "https://www.amazon.com.br/Renascen%C3%A7a-Oculta-Jesus-Zaton/dp/8584742697"
   },
   {
-    "image": "/assets/home-books/cartas-de-amor.jpg",
-    "url": "https://loja.civitassolis.org.br/cartas-de-amor",
-    "store": true
+    "image": "/assets/home-books/um-coracao-para-o-rei.avif",
+    "url": "https://www.amazon.com.br/gp/product/8567992001/ref=ox_sc_act_title_1?smid=A1ZZFT5FULY4LN&psc=1",
+    "contentLang": "pt-BR"
+  },
+  {
+    "image": "/assets/home-books/o-cavalinho-perola.avif",
+    "url": "https://www.amazon.com.br/gp/product/8562923192/ref=ox_sc_act_title_2?smid=A1ZZFT5FULY4LN&th=1",
+    "contentLang": "pt-BR"
   }
 ]

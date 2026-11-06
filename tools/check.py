@@ -43,7 +43,9 @@ vid=json.loads((ROOT/'content/videos.json').read_text())
 assert len(vid)>0 and len({v['id'] for v in vid})==len(vid)==manifest['videos']
 assert all(re.fullmatch(r'[A-Za-z0-9_-]{11}',v['id']) and v['position']==i+1 for i,v in enumerate(vid))
 assert len(manifest['pages'])==49
-assert len(json.loads((ROOT/'content/publication-assets.json').read_text()))==5
+publications=json.loads((ROOT/'content/publication-assets.json').read_text())
+assert len(publications)==manifest['publications']==6
+assert all(len(d['books'])==len(publications) for d in json.loads((ROOT/'content/publications.json').read_text()).values())
 for f in SITE.rglob('*'):
  if f.is_file() and f.suffix in {'.html','.js','.json','.css'}:
   s=f.read_text()

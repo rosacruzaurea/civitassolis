@@ -8,3 +8,5 @@ Leia [ESTADO.md](ESTADO.md), [README.md](README.md) e [docs/AMBIENTES.md](docs/A
 - Gere e valide para o subcaminho real e para a raiz. Execute os testes de navegador para mudanças funcionais.
 - PR antes de alterações em `main`. Merge e produção exigem aprovação do candidato. Staging é artefato, não segunda fonte de código.
 - Documentação pública deve ser curta, impessoal e técnica. Evidências operacionais e conversas ficam fora do repositório.
+- Conclua o build antes de iniciar os testes de navegador; não regenere `site/` durante a leitura pela fixture. Use artefato estável por rodada.
+- Em sincronização da referência, compare o catálogo completo (adições, retiradas e idiomas), não apenas a contagem anunciada de novos itens.

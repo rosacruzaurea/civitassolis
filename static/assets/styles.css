@@ -7,3 +7,5 @@
 @media(min-width:1024px){.value-respeitar{width:430px;left:calc(50% - 215px)}.value-coexistir{top:185px;right:0;left:auto}.value-compartilhar{top:410px;right:0;left:auto}.value-reconhecer{top:680px;right:30px;left:auto;width:360px}.value-entusiasmar{top:680px;left:30px;right:auto;width:340px}.value-inspirar{top:410px;left:0;right:auto;bottom:auto}.value-transformar{top:185px;left:0;right:auto;bottom:auto}}
 
 [data-instagram-host]{max-width:658px;margin:24px auto 0;text-align:left}[data-instagram-host] iframe{max-width:100%!important;min-width:0!important}.instagram-card{overflow-wrap:anywhere}
+
+[data-instagram-host] .instagram-media{width:100%!important;max-width:658px!important;min-width:0!important;margin:0 auto 12px!important}

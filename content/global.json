@@ -1,0 +1,186 @@
+{
+  "pt": {
+    "more": "Saiba mais",
+    "close": "Recolher",
+    "items": [
+      {
+        "keys": [
+          "Visão Planetária",
+          "Planetary Vision",
+          "Vision Planétaire",
+          "Visión Planetaria",
+          "Planetarische Vision",
+          "Visione Planetaria",
+          "PUBLICAÇÕES",
+          "PUBLICATIONS",
+          "PUBLICACIONES",
+          "PUBLICATIONS",
+          "PUBLIKATIONEN",
+          "PUBBLICAZIONI"
+        ],
+        "title": "PUBLICAÇÕES",
+        "body": "Desenvolvemos publicações que integram conhecimento, sensibilidade e transformação interior de forma relevante e prática para as pessoas.",
+        "detail": "Espiritualidade, Arte, Ciência e Livros Infantis",
+        "images": [
+          "/assets/home-books/geometria-sagrada.jpg",
+          "/assets/home-books/a-renascenca-oculta.jpg",
+          "/assets/home-books/a-gnose-ocidental.jpg",
+          "/assets/home-books/o-catarismo.jpg",
+          "/assets/home-books/as-cores-da-alma.jpg",
+          "/assets/home-books/a-menina-dos-baloes.jpg"
+        ]
+      },
+      {
+        "keys": [
+          "Parcerias",
+          "Partnerships",
+          "Partenariats",
+          "Alianzas",
+          "Partnerschaften",
+          "Partnership",
+          "DIÁLOGOS",
+          "DIALOGUES",
+          "DIÁLOGOS",
+          "DIALOGUES",
+          "DIALOGE",
+          "DIALOGHI"
+        ],
+        "title": "DIÁLOGOS",
+        "body": "Criamos espaços para o diálogo entre arte, ciência e espiritualidade, incluindo diferentes culturas, tradições e formas de conhecimento.",
+        "detail": "Eventos, podcasts e entrevistas com nomes tais como Gilberto Gil, Kaká Werá, Carlos Nobre, Jesús Zatón e outros",
+        "images": [
+          "/assets/docx-home-global/global-detail-2.png",
+          "/assets/docx-home-global/global-detail-3.png",
+          "/assets/docx-home-global/global-detail-4.png"
+        ]
+      },
+      {
+        "keys": [
+          "Educação Holística",
+          "Holistic Education",
+          "Éducation Holistique",
+          "Educación Holística",
+          "Ganzheitliche Bildung",
+          "Educazione Olistica",
+          "PARCERIAS",
+          "PARTNERSHIPS",
+          "ALIANZAS",
+          "PARTENARIATS",
+          "PARTNERSCHAFTEN",
+          "PARTNERSHIP"
+        ],
+        "title": "PARCERIAS",
+        "body": "Estabelecemos cooperações para ampliar o alcance de projetos culturais e filosóficos.",
+        "detail": "Parceria internacional com a Embassy of the Free Mind (Holanda), dedicada à preservação e disseminação da tradição hermética e dos conhecimentos esotéricos ocidentais. Parcerias nacionais com pesquisadores acadêmicos, artistas e organizações afins para projetos atuais e futuros.",
+        "images": [
+          "/assets/docx-home-global/global-detail-5.png"
+        ]
+      }
+    ]
+  },
+  "en": {
+    "more": "Learn more",
+    "close": "Close",
+    "items": [
+      {
+        "title": "PUBLICATIONS",
+        "body": "We develop publications that integrate knowledge, sensitivity and inner transformation in a relevant and practical way for people.",
+        "detail": "Spirituality, Art, Science and Children's Books"
+      },
+      {
+        "title": "DIALOGUES",
+        "body": "We create spaces for dialogue among art, science and spirituality, including different cultures, traditions and forms of knowledge.",
+        "detail": "Events, podcasts and interviews with names such as Gilberto Gil, Kaká Werá, Carlos Nobre, Jesús Zatón and others."
+      },
+      {
+        "title": "PARTNERSHIPS",
+        "body": "We establish cooperation to expand the reach of cultural and philosophical projects.",
+        "detail": "International partnership with the Embassy of the Free Mind in the Netherlands, dedicated to preserving and disseminating the Hermetic tradition and Western esoteric knowledge; national partnerships with academic researchers, artists and aligned organizations for current and future projects."
+      }
+    ]
+  },
+  "es": {
+    "more": "Saber más",
+    "close": "Cerrar",
+    "items": [
+      {
+        "title": "PUBLICACIONES",
+        "body": "Desarrollamos publicaciones que integran conocimiento, sensibilidad y transformación interior de forma relevante y práctica para las personas.",
+        "detail": "Espiritualidad, Arte, Ciencia y Libros Infantiles"
+      },
+      {
+        "title": "DIÁLOGOS",
+        "body": "Creamos espacios para el diálogo entre arte, ciencia y espiritualidad, incluyendo diferentes culturas, tradiciones y formas de conocimiento.",
+        "detail": "Eventos, podcasts y entrevistas con nombres como Gilberto Gil, Kaká Werá, Carlos Nobre, Jesús Zatón y otros."
+      },
+      {
+        "title": "ALIANZAS",
+        "body": "Establecemos cooperaciones para ampliar el alcance de proyectos culturales y filosóficos.",
+        "detail": "Alianza internacional con Embassy of the Free Mind en los Países Bajos, dedicada a la preservación y difusión de la tradición hermética y los conocimientos esotéricos occidentales; alianzas nacionales con investigadores académicos, artistas y organizaciones afines para proyectos actuales y futuros."
+      }
+    ]
+  },
+  "fr": {
+    "more": "En savoir plus",
+    "close": "Fermer",
+    "items": [
+      {
+        "title": "PUBLICATIONS",
+        "body": "Nous développons des publications qui intègrent connaissance, sensibilité et transformation intérieure de façon pertinente et pratique.",
+        "detail": "Spiritualité, Art, Science et Livres pour enfants"
+      },
+      {
+        "title": "DIALOGUES",
+        "body": "Nous créons des espaces de dialogue entre art, science et spiritualité, en incluant différentes cultures, traditions et formes de connaissance.",
+        "detail": "Événements, podcasts et entretiens avec des noms tels que Gilberto Gil, Kaká Werá, Carlos Nobre, Jesús Zatón et d'autres."
+      },
+      {
+        "title": "PARTENARIATS",
+        "body": "Nous établissons des coopérations pour élargir la portée de projets culturels et philosophiques.",
+        "detail": "Partenariat international avec l'Embassy of the Free Mind aux Pays-Bas, dédiée à la préservation et à la diffusion de la tradition hermétique et des connaissances ésotériques occidentales; partenariats nationaux avec des chercheurs, artistes et organisations affines pour les projets actuels et futurs."
+      }
+    ]
+  },
+  "de": {
+    "more": "Mehr erfahren",
+    "close": "Schließen",
+    "items": [
+      {
+        "title": "PUBLIKATIONEN",
+        "body": "Wir entwickeln Publikationen, die Wissen, Sensibilität und innere Transformation auf relevante und praktische Weise verbinden.",
+        "detail": "Spiritualität, Kunst, Wissenschaft und Kinderbücher"
+      },
+      {
+        "title": "DIALOGE",
+        "body": "Wir schaffen Räume für den Dialog zwischen Kunst, Wissenschaft und Spiritualität und beziehen verschiedene Kulturen, Traditionen und Wissensformen ein.",
+        "detail": "Veranstaltungen, Podcasts und Interviews mit Namen wie Gilberto Gil, Kaká Werá, Carlos Nobre, Jesús Zatón und anderen."
+      },
+      {
+        "title": "PARTNERSCHAFTEN",
+        "body": "Wir etablieren Kooperationen, um die Reichweite kultureller und philosophischer Projekte zu erweitern.",
+        "detail": "Internationale Partnerschaft mit der Embassy of the Free Mind in den Niederlanden zur Bewahrung und Verbreitung der hermetischen Tradition und westlichen esoterischen Wissens; nationale Partnerschaften mit Forschenden, Künstlern und verwandten Organisationen für aktuelle und zukünftige Projekte."
+      }
+    ]
+  },
+  "it": {
+    "more": "Scopri di più",
+    "close": "Chiudi",
+    "items": [
+      {
+        "title": "PUBBLICAZIONI",
+        "body": "Sviluppiamo pubblicazioni che integrano conoscenza, sensibilità e trasformazione interiore in modo rilevante e pratico per le persone.",
+        "detail": "Spiritualità, Arte, Scienza e Libri per bambini"
+      },
+      {
+        "title": "DIALOGHI",
+        "body": "Creiamo spazi di dialogo tra arte, scienza e spiritualità, includendo diverse culture, tradizioni e forme di conoscenza.",
+        "detail": "Eventi, podcast e interviste con nomi come Gilberto Gil, Kaká Werá, Carlos Nobre, Jesús Zatón e altri."
+      },
+      {
+        "title": "PARTNERSHIP",
+        "body": "Stabiliamo cooperazioni per ampliare la portata di progetti culturali e filosofici.",
+        "detail": "Partnership internazionale con Embassy of the Free Mind nei Paesi Bassi, dedicata alla preservazione e diffusione della tradizione ermetica e delle conoscenze esoteriche occidentali; partnership nazionali con ricercatori accademici, artisti e organizzazioni affini per progetti attuali e futuri."
+      }
+    ]
+  }
+}

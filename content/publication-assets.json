@@ -1,0 +1,23 @@
+[
+  {
+    "image": "/assets/home-books/a-gnose-ocidental.jpg",
+    "url": "https://www.amazon.com.br/gp/product/6587963072/ref=ox_sc_act_title_1?smid=A1ZZFT5FULY4LN&psc=1"
+  },
+  {
+    "image": "/assets/home-books/as-cores-da-alma.jpg",
+    "url": "https://www.amazon.com.br/As-Cores-Alma-Hilma-Klint-ebook/dp/B08D75CCLF/ref=tmm_kin_swatch_0#detailBullets_feature_div"
+  },
+  {
+    "image": "/assets/home-books/geometria-sagrada.jpg",
+    "url": "https://www.amazon.com.br/Geometria-Sagrada-Naturais-Cient%C3%ADficas-Pitag%C3%B3ricas/dp/8584741585/ref=sr_1_77?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1PQNVJV70KQBV&dib=eyJ2IjoiMSJ9.-JiFwboU0z8vET1-4AUGc8LK3wYAABaelyvqz0fpn15035jQoajpYju1KlSRiMpwO2PYxqSyN09XXnwubSg_cFvQWVa8AnUwCQWSCfWgObAE4aM7p--nxpmN9P5Y_dh0Ehi-n35cZhNvvwsL9Bn9qZ5YD2kpHo_Ctw1I00fYct0.NDvL2Wvd8tao-rCh2kuxr_dbphv8ekYYNs-P7_Q1Sg4&dib_tag=se&keywords=geometria+sagrada&qid=1789412096&s=books&sprefix=geometria+sagrad%2Cstripbooks%2C191&sr=1-77&xpid=NpfBdhH1bTLfZ"
+  },
+  {
+    "image": "/assets/home-books/a-renascenca-oculta.jpg",
+    "url": "https://www.amazon.com.br/Renascen%C3%A7a-Oculta-Jesus-Zaton/dp/8584742697"
+  },
+  {
+    "image": "/assets/home-books/cartas-de-amor.jpg",
+    "url": "https://loja.civitassolis.org.br/cartas-de-amor",
+    "store": true
+  }
+]

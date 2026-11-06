@@ -1,0 +1,7 @@
+site/
+node_modules/
+.artifacts/
+.env*
+!.env.example
+__pycache__/
+.DS_Store

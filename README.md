@@ -18,3 +18,7 @@ python3 tools/check.py
 ## Publicação
 
 Mudanças passam por PR. A produção é gerada da `main` e publicada por GitHub Actions, somente a partir de `site/`. O repositório `civitassolis-staging` recebe exclusivamente a prévia gerada e seu workflow. Nenhum domínio personalizado é configurado nesta versão.
+
+## Atualizações de conteúdo
+
+Uma rotina externa semanal pode propor vídeos novos por PR e publicar o candidato no staging. Produção permanece sujeita a revisão e merge. O Instagram utiliza o embed oficial de perfil sob demanda, não uma API autenticada de inventário de posts.

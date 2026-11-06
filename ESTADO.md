@@ -10,6 +10,6 @@ Textos e traduções extraídos da referência pública. O formulário simulado 
 
 ## Ambientes e verificação
 
-Build e verificação estrutural locais aprovados; testes de navegador e primeira publicação em acompanhamento. Staging separado, sem CNAME e com noindex. Produção e domínio original não migrados.
+Build, verificação estrutural, CI e 84 verificações de navegador aprovados, incluindo desktop, mobile, idiomas e conteúdo sem JavaScript. Staging publicado e conferido contra o SHA do candidato. Execuções e evidências atuais ficam no PR e no GitHub Actions. Staging separado, sem CNAME e com noindex. Produção e domínio original não migrados.
 
-Próxima etapa: conferir staging, revisar conteúdo e integrações externas, aprovar o PR antes de produção.
+Próxima etapa: revisão humana do staging, conteúdo e integrações externas; aprovar o PR antes de produção. A checagem semanal de vídeos prepara PR e staging, nunca merge automático.

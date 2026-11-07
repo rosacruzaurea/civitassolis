@@ -1,0 +1,811 @@
+{
+  "source": "https://ics.back2basics.com.br/",
+  "collected": "2026-11-06",
+  "assets": [
+    {
+      "url": "https://ics.back2basics.com.br/assets/amazon-icon.png",
+      "file": "assets/amazon-icon.png",
+      "bytes": 6879,
+      "sha256": "ed46a1affba12f19de7f8ffaf79534b1a840517b69552f5342fc4e0b49c323e0",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/docx-home-global/global-detail-2.png",
+      "file": "assets/docx-home-global/global-detail-2.png",
+      "bytes": 163288,
+      "sha256": "dedca04e1634783addda965ca07204e720dc8d059c1c5be4dba3871c4ab3cae3",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/docx-home-global/global-detail-3.png",
+      "file": "assets/docx-home-global/global-detail-3.png",
+      "bytes": 293453,
+      "sha256": "0b7e3ffa5c8cdbf85c3097a6b3c702ff6ec7dc6ebe926d18675a36d30ac6d887",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/docx-home-global/global-detail-4.png",
+      "file": "assets/docx-home-global/global-detail-4.png",
+      "bytes": 169265,
+      "sha256": "ecfa92de42f4a0d34bc3fb6892b2813363cb7aa1de4c17f36c7798fa23ab3939",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/docx-home-global/global-detail-5.png",
+      "file": "assets/docx-home-global/global-detail-5.png",
+      "bytes": 595442,
+      "sha256": "0bc1ad9ba22350b7a0bf741b700031a9f155dc7b9df01f83dc04970398167694",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/flags/br.svg",
+      "file": "assets/flags/br.svg",
+      "bytes": 296,
+      "sha256": "94d8e8261c21a3b9caabc0b4ba339380bbcca89e49505ab044035a43032a6946",
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/flags/de.svg",
+      "file": "assets/flags/de.svg",
+      "bytes": 207,
+      "sha256": "5a41b32305282cd9f9621435180bfd92f56eb00f15f4f553935d1f2ba6e87ea7",
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/flags/es.svg",
+      "file": "assets/flags/es.svg",
+      "bytes": 227,
+      "sha256": "4e925017ddf670241877b5d426f357468c83e68124cea5b70c1f0c6144f3517b",
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/flags/fr.svg",
+      "file": "assets/flags/fr.svg",
+      "bytes": 217,
+      "sha256": "4c6c79a75735463360beec5b89b8f86c30390c16b27ffbda982ca83717d41bba",
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/flags/it.svg",
+      "file": "assets/flags/it.svg",
+      "bytes": 217,
+      "sha256": "78e33f664aa24ebf0dbde1bb916fb328e8439b735c0e33c5f6f9c8a62d20732e",
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/flags/us.svg",
+      "file": "assets/flags/us.svg",
+      "bytes": 711,
+      "sha256": "a5abf36d1319197730600274da98ea68e953e3fce40c12d48d852d04f5a80f6e",
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/fundo-valores-geometria.png",
+      "file": "assets/fundo-valores-geometria.png",
+      "bytes": 56720,
+      "sha256": "980ab80804110f478174651384733670044e738f3a164a3c9787e4a70f1eda1f",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/home-books/a-gnose-ocidental.jpg",
+      "file": "assets/home-books/a-gnose-ocidental.jpg",
+      "bytes": 22548,
+      "sha256": "9204c1bc90a4112731569ec832735a872ce1dcfc75a1e7f2aa51bf8768428eb0",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/home-books/a-menina-dos-baloes.jpg",
+      "file": "assets/home-books/a-menina-dos-baloes.jpg",
+      "bytes": 51800,
+      "sha256": "e061db36f82052b68080ecb837d4693ac98d51525f4c5a4f3576a4b93d1efdcb",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/home-books/a-renascenca-oculta.jpg",
+      "file": "assets/home-books/a-renascenca-oculta.jpg",
+      "bytes": 105253,
+      "sha256": "1010bf0046c2087e9e229edf1730038e960cab0a4df1b747adc1fd0a13db1e93",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/home-books/as-cores-da-alma.jpg",
+      "file": "assets/home-books/as-cores-da-alma.jpg",
+      "bytes": 74571,
+      "sha256": "45e295bad1513cd9757f4d2aa3076353e6e78d7c25e7076328804d2ad7e14ea2",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/home-books/cartas-de-amor.jpg",
+      "file": "assets/home-books/cartas-de-amor.jpg",
+      "bytes": 255272,
+      "sha256": "15ffc51a64b2f7f7793fd29e79a25d2595f83aa61a6af25da84d5827ea7c64b2",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/home-books/geometria-sagrada.jpg",
+      "file": "assets/home-books/geometria-sagrada.jpg",
+      "bytes": 261274,
+      "sha256": "830a1d9f2c4edcf4065585180bd297f8fb6ff1da915bf94ca01f695912ef1283",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/home-books/o-catarismo.jpg",
+      "file": "assets/home-books/o-catarismo.jpg",
+      "bytes": 37134,
+      "sha256": "98b8d61dbe8cb6e14ba616f6b77873bb48d4e11c0ed980729b5e0345297b9d23",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/youtube-gallery/channel-cover.jpg",
+      "file": "assets/channel-cover.jpg",
+      "bytes": 46646,
+      "sha256": "7c55ebe68be914e663bd710ff4d7193523dfb1d57c8382494205aa1966b6a534",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://cdn.awsli.com.br/436/436130/favicon/f0c196521f.png",
+      "file": "assets/logo.png",
+      "bytes": 13460,
+      "sha256": "5df6525bbda7da07ca9821315de60e54edb25aaaa3219ca274b6305a37d0d972",
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1920&auto=format&fit=crop",
+      "file": "assets/hero-1.jpg",
+      "bytes": 966351,
+      "sha256": "dd3c0bff5996a90ab2e836761fa84cad4a2c4b23d15b2de5af73cc5271aabeb5",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1920&auto=format&fit=crop",
+      "file": "assets/hero-2.jpg",
+      "bytes": 395535,
+      "sha256": "ac829851bf5249eeaf35574cc9f69593b34e5c99fdeb9d227c1258923f7bc7be",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=1920&auto=format&fit=crop",
+      "file": "assets/hero-3.jpg",
+      "bytes": 363439,
+      "sha256": "c14714f536e12bc39c5c007121424d79bcf68cbf69512e70829452636f3b6d56",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1920&auto=format&fit=crop",
+      "file": "assets/hero-4.jpg",
+      "bytes": 729846,
+      "sha256": "37e0edf14eeb84efa55330cd95e6759fcc76cda6bde4b2dc6c3e925d1ee45e8f",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?q=80&w=1920&auto=format&fit=crop",
+      "file": "assets/hero-5.jpg",
+      "bytes": 496347,
+      "sha256": "d6e2c3c22715fe12fa7b060ca9c8ff4bf30271be457df07c32566f3980a99fbd",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/hc3KREdyrsg/hqdefault.jpg",
+      "file": "assets/videos/hc3KREdyrsg.jpg",
+      "bytes": 26233,
+      "sha256": "0f865ccd56d64157f98f117a353f572cc526d17ca71f1f87b5c4ea72d2eb3785",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/mQVRKjHhTFQ/hq720.jpg",
+      "file": "assets/videos/mQVRKjHhTFQ.jpg",
+      "bytes": 98309,
+      "sha256": "2552c73a489b1466bed73a358ffb86c01f01eea17d30cb790860755b57c54057",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/LL8XYOgbhhU/hqdefault.jpg",
+      "file": "assets/videos/LL8XYOgbhhU.jpg",
+      "bytes": 13479,
+      "sha256": "60ed2bccef4a3cbb955b569c5e97d7f2392e39f41dae8ea88a17a1f843c8fe3a",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/bvBDHuXF3W4/hqdefault.jpg",
+      "file": "assets/videos/bvBDHuXF3W4.jpg",
+      "bytes": 11099,
+      "sha256": "bdae09cea90d3d4aa4bbd83d964583a7cef65e6663e9c578dd7722ef537167e0",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/vLH2YTURXt8/hq720.jpg",
+      "file": "assets/videos/vLH2YTURXt8.jpg",
+      "bytes": 102304,
+      "sha256": "f7bd9290e51506e9cf5c697a3fc50a37a4cfb222d078ad26fefc8d5e3f92f240",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/eMIbvz3UI6s/hq720.jpg",
+      "file": "assets/videos/eMIbvz3UI6s.jpg",
+      "bytes": 83970,
+      "sha256": "d9796d5b11219fa4b631d85ccc1e66987462e5f4e4660535514b03bd0ccedf09",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/5ED7ZPojk48/hq720.jpg",
+      "file": "assets/videos/5ED7ZPojk48.jpg",
+      "bytes": 63813,
+      "sha256": "63c8fab0afda0df176c63da7e05cc4de724701840149131a1cbdcd30e195d577",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/bYnbzOxHSbg/hqdefault.jpg",
+      "file": "assets/videos/bYnbzOxHSbg.jpg",
+      "bytes": 63113,
+      "sha256": "dab50bc15130b68315af9f1ebb004a61b70d50be890d4042821559c0c08fb301",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/9KOljXXGnkY/hqdefault.jpg",
+      "file": "assets/videos/9KOljXXGnkY.jpg",
+      "bytes": 26016,
+      "sha256": "ef31244616fedb897eec49693b34b9e56c10adaaebc29b02d25514927a09cdd7",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/eM2fJn73ZQw/hqdefault.jpg",
+      "file": "assets/videos/eM2fJn73ZQw.jpg",
+      "bytes": 14120,
+      "sha256": "600326d69958a723edd581e410895b28f662d6c21a96a08c700d2a841ee73555",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/46tSc9W7qb0/hqdefault.jpg",
+      "file": "assets/videos/46tSc9W7qb0.jpg",
+      "bytes": 15437,
+      "sha256": "522766e473aac5c1e4c4a4a20a65c59ad9689a4b57de9df5365a43de9636a6d0",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/SzHJlQyI2eY/hqdefault.jpg",
+      "file": "assets/videos/SzHJlQyI2eY.jpg",
+      "bytes": 6774,
+      "sha256": "c3b6514b3d8633f6844228fcea8ec1035e11210373bf73f33f700387fc95b9c6",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/-dDT4djPuAM/hqdefault.jpg",
+      "file": "assets/videos/-dDT4djPuAM.jpg",
+      "bytes": 11551,
+      "sha256": "1c98e9d2f780674a613ea9084e6fe28a57e4acd003537d5fca49d35b225c7651",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/JtOkadqp3e8/hqdefault.jpg",
+      "file": "assets/videos/JtOkadqp3e8.jpg",
+      "bytes": 16555,
+      "sha256": "4e87d28a86123972d0768130d31e0d782c01a7785f0baef29c8882281bf37b76",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/EK3gK8CJii4/hqdefault.jpg",
+      "file": "assets/videos/EK3gK8CJii4.jpg",
+      "bytes": 30663,
+      "sha256": "ae91943e4871c209ba60a8dd75260cc2b15a42fe8f806f969d9beaf09a33cc6c",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/ZZ3YEnoeXcs/hq720.jpg",
+      "file": "assets/videos/ZZ3YEnoeXcs.jpg",
+      "bytes": 116026,
+      "sha256": "f251f99ef2e192f207e5e31bbca1a53ef6b3c501cf7b9f039c87200e28aef6f7",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/Cneuc5gJ214/hqdefault.jpg",
+      "file": "assets/videos/Cneuc5gJ214.jpg",
+      "bytes": 27196,
+      "sha256": "0c27bace22ca52deb08d62cb33ac4e96fca78bea872f60d34685ae606770f863",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/-nEZsZAjCrk/hqdefault.jpg",
+      "file": "assets/videos/-nEZsZAjCrk.jpg",
+      "bytes": 23812,
+      "sha256": "7e9af207f179be70ba214929d1a863b29af2f6524295170f51b9963840fdc0e2",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/d17rkmhCZf4/hqdefault.jpg",
+      "file": "assets/videos/d17rkmhCZf4.jpg",
+      "bytes": 22414,
+      "sha256": "dd6a6223a6704c16acf4af6accc534a62ce1340d87adb4123365a3b17c9978f9",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/FHaklMJar9c/hqdefault.jpg",
+      "file": "assets/videos/FHaklMJar9c.jpg",
+      "bytes": 20845,
+      "sha256": "465723450fd35861554e79155b9038be08ad75db1aabdabbe02bff889259d295",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/dKz8ejtRPkc/hqdefault.jpg",
+      "file": "assets/videos/dKz8ejtRPkc.jpg",
+      "bytes": 30490,
+      "sha256": "154fed73cdb2e3a700aa8834507361ff16bc1fdd860eea6f40393c511a0d4632",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/hHiF86u0OWU/hqdefault.jpg",
+      "file": "assets/videos/hHiF86u0OWU.jpg",
+      "bytes": 30161,
+      "sha256": "ac93cde41ea175f24a2ed941517df2cac4e2ea417b0aa1f6b027c53c91051df3",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/pUsYhiOmKvI/hqdefault.jpg",
+      "file": "assets/videos/pUsYhiOmKvI.jpg",
+      "bytes": 14030,
+      "sha256": "1ff9889e794df680dcab81ca6b7cf9ebfde284d18623757b73ced04817febfcc",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/gQgfudsrSy4/hqdefault.jpg",
+      "file": "assets/videos/gQgfudsrSy4.jpg",
+      "bytes": 9174,
+      "sha256": "467bfd42bb4bdb89e9f28e75d55b80cb7e7f06a30df2ad8835cbdcfb592efca7",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OUGD1XYnxBQ/hqdefault.jpg",
+      "file": "assets/videos/OUGD1XYnxBQ.jpg",
+      "bytes": 28222,
+      "sha256": "87e148a7036f68efb0b0f0c25b28346ca455a50c2d8a6205e24596ad2c964813",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/djuiXrH_pQ4/hqdefault.jpg",
+      "file": "assets/videos/djuiXrH_pQ4.jpg",
+      "bytes": 32983,
+      "sha256": "21a478e564623f0a9f0aa765072ce81c7a80defdbc96a91e31b240addeb04b38",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/21ERPoqH2bs/hqdefault.jpg",
+      "file": "assets/videos/21ERPoqH2bs.jpg",
+      "bytes": 41850,
+      "sha256": "10a35d37ee631c97d4313600587724022330c604e64a2372a98e4a0b4139bb88",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/0aThNMyWAFg/hqdefault.jpg",
+      "file": "assets/videos/0aThNMyWAFg.jpg",
+      "bytes": 17932,
+      "sha256": "2d1902cea73ad5684f8f35d09b37ffc6803fc077f996f79d44ca5ee1bb02dd52",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/VAPgY__YRPU/hqdefault.jpg",
+      "file": "assets/videos/VAPgY__YRPU.jpg",
+      "bytes": 27025,
+      "sha256": "b5e0cdf009c6a6d3a33b357009f7af3514c214b6a4c46a9a35bbad2b5bda0dab",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/5ky5JO0hRnE/hqdefault.jpg",
+      "file": "assets/videos/5ky5JO0hRnE.jpg",
+      "bytes": 25123,
+      "sha256": "749341547543229a510d05321fa318bb6e09ecaf8a3e0e6bff0ef43080f61076",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/b0FHrutR_aU/hqdefault.jpg",
+      "file": "assets/videos/b0FHrutR_aU.jpg",
+      "bytes": 29904,
+      "sha256": "ced8ddae703fece1dc7ca6061d7d736d45e5f36e8f008343cf8f21a3d46e0f73",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/GesaVKV7TfU/hqdefault.jpg",
+      "file": "assets/videos/GesaVKV7TfU.jpg",
+      "bytes": 28695,
+      "sha256": "09b678e35c44acc5c0ae9a52522138bba99c72e961187885f3521e165a397012",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/VVCUbCMKuHY/hq720.jpg",
+      "file": "assets/videos/VVCUbCMKuHY.jpg",
+      "bytes": 133560,
+      "sha256": "8089377ee6c0615d48b79e2d5f25e06eff5aa055b70a030e15498e64668e4f0b",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/tPg5YYoP3EA/hq720.jpg",
+      "file": "assets/videos/tPg5YYoP3EA.jpg",
+      "bytes": 145878,
+      "sha256": "8d1f9fc1c25e029c2ef1533b2dbdf747a1322e37ae45f1ee78f08ce7360b9a61",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/4296w4jUaUY/hqdefault.jpg",
+      "file": "assets/videos/4296w4jUaUY.jpg",
+      "bytes": 17517,
+      "sha256": "f1ff8630b61fd75b7bb3ce5c9d0e2a0f14a69b43d7dd13efe0ed4a560f82fdc4",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/TAskibnyjB0/hqdefault.jpg",
+      "file": "assets/videos/TAskibnyjB0.jpg",
+      "bytes": 70717,
+      "sha256": "382bdce874ad42fcdbf18c3eb729000c3b820f954a83cb481a0bfbd673d9bedd",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/lzQB2E7XFJA/hq720.jpg",
+      "file": "assets/videos/lzQB2E7XFJA.jpg",
+      "bytes": 127332,
+      "sha256": "5427d1ff1a76362f992b165bac0c967afdda78a57a7fc1615fcbdeb52c137733",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/HDL81bTM6JE/hq720.jpg",
+      "file": "assets/videos/HDL81bTM6JE.jpg",
+      "bytes": 154025,
+      "sha256": "336c5843905e4c2c453eb9ef9333f93571f70ad2b02c59ef008e25dcfd12a1e5",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/DPR0tLzmoF0/hq720.jpg",
+      "file": "assets/videos/DPR0tLzmoF0.jpg",
+      "bytes": 150620,
+      "sha256": "44f0ddb31db620e7274ac6dd34c90789967c6f9f7e6601aaedd6888579940f31",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/9m3pB8MJ9Wk/hqdefault.jpg",
+      "file": "assets/videos/9m3pB8MJ9Wk.jpg",
+      "bytes": 28060,
+      "sha256": "e7206026dd7819746be281ec565d0864c932345a73f64190622bdea1c98934f5",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/sfhfjhLQIEc/hq720.jpg",
+      "file": "assets/videos/sfhfjhLQIEc.jpg",
+      "bytes": 106665,
+      "sha256": "16d32efddd14c61d7984905ef80e823aa03e101debf4d76b2b33b2c878beaf76",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/7MpOpXIqd0U/hqdefault.jpg",
+      "file": "assets/videos/7MpOpXIqd0U.jpg",
+      "bytes": 13452,
+      "sha256": "6461420e3ced54850b7f636748185e5915243ea74f18cc32370f3ff0e8ff1264",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/1UO51JRN81Q/hqdefault.jpg",
+      "file": "assets/videos/1UO51JRN81Q.jpg",
+      "bytes": 12261,
+      "sha256": "69b7e63e6ab3bca6fe929ef3c4891c51ab9d25f35bcebe6bf2425a90b1df8c48",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/29LkWaWt35g/hqdefault.jpg",
+      "file": "assets/videos/29LkWaWt35g.jpg",
+      "bytes": 20687,
+      "sha256": "d193762d9015694cc11cac0ffc172c76f3cb3d42f7aa83c67aaa35641cd11e5d",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/7xaA38E00mY/hq720.jpg",
+      "file": "assets/videos/7xaA38E00mY.jpg",
+      "bytes": 153851,
+      "sha256": "376a0d793061f89c0146faac26afd22944d242b29a8d310e226d709d100e7754",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/fR8bS_y8ns4/hqdefault.jpg",
+      "file": "assets/videos/fR8bS_y8ns4.jpg",
+      "bytes": 17137,
+      "sha256": "101e7a41f63a003b8e9edebcdf3f27046543d7cfba2f1af09ac6dfaf3b8f74ec",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/unzs4PKwmf4/hqdefault.jpg",
+      "file": "assets/videos/unzs4PKwmf4.jpg",
+      "bytes": 64562,
+      "sha256": "9bb9c13e1ad2b55fc8ce3330d5b24a3b0f1048b4bc6d171254bdcd3beff06eb5",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/aORXVTpn-kw/hq720.jpg",
+      "file": "assets/videos/aORXVTpn-kw.jpg",
+      "bytes": 114167,
+      "sha256": "6be95cb3bc0a41431effff9a4f363c876a23d8f5465fd91fd49ca982eab4ad00",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/R1jSkQg2Oc4/hqdefault.jpg",
+      "file": "assets/videos/R1jSkQg2Oc4.jpg",
+      "bytes": 9193,
+      "sha256": "ef7d2108a327e0b4b5a0d84f46f2dbf2e386ef0ce97d432d7d8bc0353b4fbf59",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/xNzxPwq3JHA/hqdefault.jpg",
+      "file": "assets/videos/xNzxPwq3JHA.jpg",
+      "bytes": 28644,
+      "sha256": "334096474fe2b633f4bd71bc07e1e521c5d7659b9ba438be3b7fb5a45cb7d5ee",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/WlGQOzK3k0c/hq720.jpg",
+      "file": "assets/videos/WlGQOzK3k0c.jpg",
+      "bytes": 149592,
+      "sha256": "249ea512d711e99cd1cf12e55e52327afe1b29d1e86e985ebd97e0fbb7aafbe3",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/lzd72GZHg6o/hqdefault.jpg",
+      "file": "assets/videos/lzd72GZHg6o.jpg",
+      "bytes": 9702,
+      "sha256": "11873f7cf362da16d81ef2765b010dfc6afea7e0f4f43d66323486a001670a84",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/26LtdHDUPA8/hq720.jpg",
+      "file": "assets/videos/26LtdHDUPA8.jpg",
+      "bytes": 125455,
+      "sha256": "272bbd899e19356b56c02288d0488e0531dc33c69171f8196ec2503a3a4cd93d",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/v-GE8nBhIX4/hqdefault.jpg",
+      "file": "assets/videos/v-GE8nBhIX4.jpg",
+      "bytes": 9432,
+      "sha256": "78b7546f3a3d111257175b15a2c35746cac432905f5e9b580dde9d97d74215d2",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/1IJWSLFBzYI/hqdefault.jpg",
+      "file": "assets/videos/1IJWSLFBzYI.jpg",
+      "bytes": 8925,
+      "sha256": "0bff10e7bc9dd5224691c7cee05f23ac6ea04747b17d4fb1ea2a8fd6df239e17",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/ziHAtTdDsaY/hqdefault.jpg",
+      "file": "assets/videos/ziHAtTdDsaY.jpg",
+      "bytes": 8916,
+      "sha256": "8213c2ffb6658a48a5947616848ac328383e8d13ab8fb40f23748a215e18b8dd",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/9JBAykMWDbI/hqdefault.jpg",
+      "file": "assets/videos/9JBAykMWDbI.jpg",
+      "bytes": 9009,
+      "sha256": "70d28072a522ac9a7e09b8cbece01c1fbd70d37f172e00d8f9aeecaed4f50b71",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/OsQJ08pAho8/hqdefault.jpg",
+      "file": "assets/videos/OsQJ08pAho8.jpg",
+      "bytes": 12330,
+      "sha256": "56e9dd272e42fd66f79ef2f55f70c704f54cd85229a6e5c2a898053af0312742",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/MP6K6eFKGrY/hqdefault.jpg",
+      "file": "assets/videos/MP6K6eFKGrY.jpg",
+      "bytes": 9322,
+      "sha256": "71d9543c65154c8e9cb0f52b3d2603ac9d521a43d7c5220ab4eaea9381f2b38f",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/7nXbsW137EE/hqdefault.jpg",
+      "file": "assets/videos/7nXbsW137EE.jpg",
+      "bytes": 14718,
+      "sha256": "ad4dfd1238fae7e35e9346127d7e1cb241bbfcb7826e81f111999d6a51607135",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/L47BEk2pVVs/hqdefault.jpg",
+      "file": "assets/videos/L47BEk2pVVs.jpg",
+      "bytes": 11651,
+      "sha256": "f6fe2da261968e4ac91a706774ba2d841207d2183aa0c359df311083d33ec1b5",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/q-R8IERNrnc/hq720.jpg",
+      "file": "assets/videos/q-R8IERNrnc.jpg",
+      "bytes": 116105,
+      "sha256": "cfefb79dfc9b1774230009c07c9859bee7a319b40ba7436327dd8651c8ebf93e",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/aeDtMq3ePzA/hqdefault.jpg",
+      "file": "assets/videos/aeDtMq3ePzA.jpg",
+      "bytes": 29547,
+      "sha256": "a9682272f223a194caa40437dc0a27cc97e4408a2c817fa530d92b0398cc86f7",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/L-HwbFbI9SQ/hq720.jpg",
+      "file": "assets/videos/L-HwbFbI9SQ.jpg",
+      "bytes": 110988,
+      "sha256": "c35f9ecca4a4a514150503dffdc8cb38750e7da2d6617b1fd94dc8b3578d2401",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/YW3s75vdfI8/hqdefault.jpg",
+      "file": "assets/videos/YW3s75vdfI8.jpg",
+      "bytes": 24231,
+      "sha256": "33b53080a71b786db389174c1739a4895f643af6b4872f147177133dbefdb5b3",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/TqUnxwsAsUA/hqdefault.jpg",
+      "file": "assets/videos/TqUnxwsAsUA.jpg",
+      "bytes": 28033,
+      "sha256": "89cf900c34d0f179543efd0ebcafac9506d3c8f3dc0467bde5f8378a0f37c8dc",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/LYb0O6XOnGY/hqdefault.jpg",
+      "file": "assets/videos/LYb0O6XOnGY.jpg",
+      "bytes": 9803,
+      "sha256": "83d6cb8d57c322c28b013a50027bc9f0f7fb597bfc4c66e83ee78777e1e4b56c",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/TV8bHCpnRac/hq720.jpg",
+      "file": "assets/videos/TV8bHCpnRac.jpg",
+      "bytes": 101553,
+      "sha256": "9a982a9a3735bd8838725a979361503924c4d5b8a5bfe84fa07635207af979c0",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/ucUxM1X8ckc/hq720.jpg",
+      "file": "assets/videos/ucUxM1X8ckc.jpg",
+      "bytes": 103551,
+      "sha256": "8cbf8c5605f9089bb9956402137c95527eda0f97600116718faea29caca8b4fb",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/vEFhCWcmau0/hq720.jpg",
+      "file": "assets/videos/vEFhCWcmau0.jpg",
+      "bytes": 133514,
+      "sha256": "bd32fcbabf99cfdd3fcdf9babaa78299ea0c14788b6033fcc04958c8448aa8e7",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/xEjulbLbMcE/hqdefault.jpg",
+      "file": "assets/videos/xEjulbLbMcE.jpg",
+      "bytes": 13482,
+      "sha256": "60dc075b86830cf8ad53d0bfe2da9f18e377505597f249507136d527a37b078c",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/8IB0CT_33oc/hqdefault.jpg",
+      "file": "assets/videos/8IB0CT_33oc.jpg",
+      "bytes": 15674,
+      "sha256": "5f8c5adb480e7aed5e8d5bf4f724a8b3f5fcc85da62e664a08aa995d0792a443",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/fj7cnUSc80E/hqdefault.jpg",
+      "file": "assets/videos/fj7cnUSc80E.jpg",
+      "bytes": 10715,
+      "sha256": "5c8b20848263bdb062f26ee86fac68825e9487f206936dbe04b7e09886f3d0eb",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/CGgQD8Ts6Po/hq720.jpg",
+      "file": "assets/videos/CGgQD8Ts6Po.jpg",
+      "bytes": 104386,
+      "sha256": "8b54853f4b6ae5d593551c2934270f5e1ea268bfb1132b9a5ccea8527c303123",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/_Kv-3ZNnMLk/hqdefault.jpg",
+      "file": "assets/videos/_Kv-3ZNnMLk.jpg",
+      "bytes": 14508,
+      "sha256": "b81c13f64b4b178a8b122b309e06bb7200fa737979b6df414ff711934309ac5c",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/5SWcNr8IS98/hqdefault.jpg",
+      "file": "assets/videos/5SWcNr8IS98.jpg",
+      "bytes": 11796,
+      "sha256": "7c9020d50ab93f0fe331ed8a00db4940fc2e5791ec638c57d5cd8b96bfc1ab5c",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/EzPYnX5T0g4/hqdefault.jpg",
+      "file": "assets/videos/EzPYnX5T0g4.jpg",
+      "bytes": 11814,
+      "sha256": "72c1fdd331a30dbe8f9436816080128adf01a765c23978c44c24c891f7894bd2",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/Dl1AKWCp9U8/hqdefault.jpg",
+      "file": "assets/videos/Dl1AKWCp9U8.jpg",
+      "bytes": 13442,
+      "sha256": "93c4180dda0fac2dbd0fe98ba262edb94da6075d342c21f11e2b13a0efbd9560",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/L5wtcnoe3qM/hq720.jpg",
+      "file": "assets/videos/L5wtcnoe3qM.jpg",
+      "bytes": 115124,
+      "sha256": "a224eb6df1a344cb7a1f0f873498c52322508a4938b87fa1ff469d615a3afa6e",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/85dNz7GpWNI/hq720.jpg",
+      "file": "assets/videos/85dNz7GpWNI.jpg",
+      "bytes": 134256,
+      "sha256": "1b508d4aaec0e949d13ff14d94fd4740484eeabb73d7b14c1a51e0aefe6024f2",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/YFm-k-b5t0Y/hq720.jpg",
+      "file": "assets/videos/YFm-k-b5t0Y.jpg",
+      "bytes": 146269,
+      "sha256": "613e268d4494d86c252cf133f9d325b9658304167d8f4516fd74e44a1c018b8e",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/DiviEcBk7Ug/hq720.jpg",
+      "file": "assets/videos/DiviEcBk7Ug.jpg",
+      "bytes": 112792,
+      "sha256": "6737baa29539d08df2c502bf9a8fa8cbcf2f3b47f5c398932ae62a346ae2d618",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/BhW1b72N4D8/hq720.jpg",
+      "file": "assets/videos/BhW1b72N4D8.jpg",
+      "bytes": 108451,
+      "sha256": "562af41d5fa9424bbdd693922ab26ce25c32999e7cb190cef8680f25f8598b4d",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/M2fjFVOhWZU/hq720.jpg",
+      "file": "assets/videos/M2fjFVOhWZU.jpg",
+      "bytes": 124061,
+      "sha256": "5cf51be350b0cdf2c0128b43e8e9f94160eef56896fac9c38f4adbe720fee078",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/2zPMMm7dDYo/hqdefault.jpg",
+      "file": "assets/videos/2zPMMm7dDYo.jpg",
+      "bytes": 10714,
+      "sha256": "183368bcf6a8402e813dcfca613fcc26d5002b81719868c10d54cf5967831564",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/vTt_nTj01YE/hq720.jpg",
+      "file": "assets/videos/vTt_nTj01YE.jpg",
+      "bytes": 103017,
+      "sha256": "c7b85f47ba9c45b64cb7cf3eae407478a09eee8968ba51781c140ca33b1d1354",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/SUv41Q3v3G0/hq720.jpg",
+      "file": "assets/videos/SUv41Q3v3G0.jpg",
+      "bytes": 115730,
+      "sha256": "492d06d02e3f14dfeebcb76afa105d84a2c526544cc6b9b053e86bc14c82bc87",
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/home-books/um-coracao-para-o-rei.avif",
+      "file": "assets/home-books/um-coracao-para-o-rei.avif",
+      "bytes": 21849,
+      "sha256": "f21260212afa914011058164248a54110f5ff1b7eb6032dc116d043cbcb04676",
+      "content_type": "image/avif"
+    },
+    {
+      "url": "https://ics.back2basics.com.br/assets/home-books/o-cavalinho-perola.avif",
+      "file": "assets/home-books/o-cavalinho-perola.avif",
+      "bytes": 29999,
+      "sha256": "777ca6f22b712422c32fc15cac447766504d39b8da424dcc877a408a9c29af1f",
+      "content_type": "image/avif"
+    }
+  ]
+}

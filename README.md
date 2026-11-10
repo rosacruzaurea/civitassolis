@@ -17,7 +17,11 @@ python3 tools/check.py
 
 ## Publicação
 
-Mudanças passam por PR. A produção é gerada da `main` e publicada por GitHub Actions, somente a partir de `site/`. O repositório `civitassolis-staging` recebe exclusivamente a prévia gerada e seu workflow. Nenhum domínio personalizado é configurado nesta versão.
+Mudanças passam por PR. A produção é gerada da `main` e publicada por GitHub Actions, somente a partir de `site/`. O repositório `civitassolis-staging` recebe exclusivamente a prévia gerada e seu workflow. A produção usa https://civitassolis.org.br/; origem e caminho-base são obtidos da configuração Pages em cada build.
+
+## Metadados
+
+Descrições: `content/seo.json`. [Textos e imagem para revisão](docs/REVISAO-SEO.md). Após gerar, execute `python3 tools/check_seo.py` para conferir as 48 páginas, canonical/hreflang, Open Graph e JSON-LD.
 
 ## Atualizações de conteúdo
 

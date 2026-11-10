@@ -1,6 +1,6 @@
 # Estado
 
-Versão 0.1.1 em revisão, branch `feat/static-site`.
+Candidato SEO e interface em revisão no PR #2, branch `feat/seo-metadata`. Produção permanece na main `ba1d46e`; não integrada por este candidato.
 
 ## Conteúdo
 
@@ -13,3 +13,11 @@ Textos e traduções extraídos da referência pública. O formulário simulado 
 Builds de raiz e staging, verificação estrutural e 107 verificações locais de navegador aprovados para a atualização. Cobertura inclui desktop, mobile, idiomas, catálogo, links de compra, foco nos painéis e conteúdo sem JavaScript. O PR registra SHA, CI e publicação do candidato vigente. Execuções e evidências atuais ficam no PR e no GitHub Actions. Staging separado, sem CNAME e com noindex. Produção e domínio original não migrados.
 
 Próxima etapa: revisão humana do staging, conteúdo e integrações externas; aprovar o PR antes de produção. A checagem semanal de vídeos prepara PR e staging, nunca merge automático.
+
+## Candidato SEO
+
+Descrições em `content/seo.json`, geração em `tools/seo.py`, revisão editorial em [REVISAO-SEO](docs/REVISAO-SEO.md). Produção atual usa https://civitassolis.org.br/ e base raiz; staging permanece separado. Validar os dois destinos com `python3 tools/check_seo.py` após o build. Novos textos e imagem aguardam revisão humana; a descrição anterior do domínio não migrado é histórica.
+
+Complemento de interface no mesmo candidato: ícones SVG locais nas redes sociais, com aria-label/title e destinos preservados. Bandeiras no seletor dos seis idiomas, mantendo a rota atual ao trocar de idioma. Sem novas dependências ou páginas.
+
+Navegação interna: YouTube e Instagram por extenso no cabeçalho e rodapé. Redes externas mantêm ícones lado a lado; os testes verificam essa distinção e os alvos de toque.

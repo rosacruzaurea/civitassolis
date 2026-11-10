@@ -10,6 +10,15 @@ try{
  browser=process.env.CDP_URL?await chromium.connectOverCDP(process.env.CDP_URL):await chromium.launch({channel:'chrome',headless:true,chromiumSandbox:true});
  for(const width of [1440,390]){const ctx=await context(width);try{const p=await ctx.newPage();p.setDefaultTimeout(15000);p.on('pageerror',e=>errors.push(e.message));const requests=[];p.on('request',r=>requests.push(r.url()));
  for(const route of ['','missao-visao-valores/','publicacoes/','youtube/','instagram/','contato/','trabalho-global/','livro/']){await p.goto(base+'/'+route,{waitUntil:'load',timeout:30000});await p.locator('h1').waitFor();check(await p.locator('h1').count()===1,`${width} ${route} title`);check(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),`${width} ${route} no overflow`);await p.screenshot({path:`${out}/${width}-${route.replaceAll('/','')||'home'}.png`,fullPage:false});}
+ for(const nav of ['#menu-principal','footer nav:not(.social-links)'])for(const [route,label] of [['youtube','YouTube'],['instagram','Instagram']]){
+  const a=p.locator(`${nav} a[href$="/${route}/"]`);
+  check(await a.innerText()===label&&await a.locator('svg').count()===0,`${width} ${nav} internal ${label} uses text`);
+ }
+ // Icon groups must share a row, not inherit the text navigation's column layout.
+ for(const selector of ['footer .social-links']){
+  const boxes=await p.locator(selector+' a').evaluateAll(es=>es.map(e=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height};}));
+  check(boxes.length>=2&&boxes.every((b,i)=>Math.abs(b.y-boxes[0].y)<1&&b.width>=44&&b.height>=44&&(!i||b.x>=boxes[i-1].x+boxes[i-1].width)),`${width} ${selector} horizontal touch targets`);
+ }
  check(requests.every(u=>new URL(u).origin===new URL(base).origin),`${width} no automatic third-party requests`);
  await p.goto(base+'/instagram/');await ctx.route('https://www.instagram.com/embed.js',r=>r.fulfill({contentType:'application/javascript',body:'window.instgrm={Embeds:{process(){window.officialEmbedProcessed=true;}}};'}));await p.locator('[data-instagram]').click();await p.waitForFunction(()=>window.officialEmbedProcessed===true);check(await p.locator('script[src="https://www.instagram.com/embed.js"]').count()===1,`${width} official Instagram script`);check(await p.locator('blockquote.instagram-media').getAttribute('data-instgrm-permalink')==='https://www.instagram.com/institutocivitassolis/',`${width} official profile embed`);check(await p.locator('[data-instagram-host]').evaluate(e=>e.querySelector('blockquote').offsetWidth<=e.clientWidth+1),`${width} embed fits container`);
 

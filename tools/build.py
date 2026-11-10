@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate static HTML. Python standard library only; no browser framework."""
 import os,json,html,shutil,subprocess
+from icons import social_icon, language_flag
 from seo import description as seo_description, metadata as seo_metadata
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
@@ -25,18 +26,24 @@ def url(route='',lang='pt'):return BASE+'/' + (lang+'/' if lang!='pt' else '') +
 def tr(s,l):return TRANS.get(l,{}).get(s,s)
 def para(s,l):return '<p>'+esc(tr(s,l))+'</p>'
 def img(p,alt='',cls='',lazy=True):return f'<img src="{esc(asset(p))}" alt="{esc(alt)}" class="{cls}"'+(' loading="lazy"' if lazy else ' fetchpriority="high"')+' decoding="async">'
-def link(href,text,cls='button',external=False):return f'<a class="{cls}" href="{esc(href)}"'+(' target="_blank" rel="noopener noreferrer"' if external else '')+'>'+esc(text)+('</a>')
+def link(href,text,cls='button',external=False):
+ networks={'https://www.instagram.com/institutocivitassolis/':'instagram','https://www.facebook.com/institutocivitassolis':'facebook','https://www.youtube.com/@institutocivitassolis5117':'youtube','https://www.youtube.com/@institutocivitassolis5117/videos':'youtube'}
+ network=networks.get(href)
+ label=(network.title()+': '+text) if network and network not in text.lower() else text
+ attrs=f' aria-label="{esc(label)}" title="{esc(label)}" data-social="{network}"' if network else ''
+ return f'<a class="{cls}{" social-icon-link" if network else ""}" href="{esc(href)}"'+(' target="_blank" rel="noopener noreferrer"' if external else '')+attrs+'>'+(social_icon(network) if network else esc(text))+'</a>'
+
 def icon(name):
  paths={'art':'M5 20l14-14M12 5l7 7M4 20l4-1-3-3-1 4','spirit':'M12 3l3 6 6 3-6 3-3 6-3-6-6-3 6-3 3-6','science':'M9 3v7l-5 9a1 1 0 001 2h14a1 1 0 001-2l-5-9V3M8 3h8M7 15h10','book':'M3 4h7l2 2 2-2h7v16h-7l-2 1-2-1H3V4M12 6v15','chat':'M4 4h16v13H9l-5 4V4','globe':'M3 12h18M12 3a9 9 0 100 18 9 9 0 000-18M12 3c-6 5-6 13 0 18 6-5 6-13 0-18'}
  return f'<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="{paths[name]}"/></svg>'
 def nav(l,r):
  names=['Home','Missão, Visão e Valores','Publicações','YouTube','Instagram','Contato'];routes=ROUTES[:6]
- return ''.join(f'<a href="{url(p,l)}"'+(' aria-current="page"' if p==r else '')+'>'+esc(PUB[l]['eyebrow'].split(' Civitas')[0] if p=='publicacoes' else tr(n,l))+'</a>' for n,p in zip(names,routes))
+ return ''.join(f'<a href="{url(p,l)}"'+(' aria-current="page"' if p==r else '')+(f' class="social-icon-link" aria-label="{n}" title="{n}" data-social="{p}"' if p in {'youtube','instagram'} else '')+'>'+(social_icon(p) if p in {'youtube','instagram'} else esc(PUB[l]['eyebrow'].split(' Civitas')[0] if p=='publicacoes' else tr(n,l)))+'</a>' for n,p in zip(names,routes))
 def header(l,r):
- choices=''.join(f'<a href="{url(r,k)}" lang="{k}" hreflang="{k}"'+(' aria-current="true"' if k==l else '')+'>'+'<span class="language-code">'+v[1].upper()+'</span>'+esc(v[0])+'</a>' for k,v in LANGS.items())
- return f'''<a class="skip" href="#conteudo">{UI[l]['skip']}</a><header class="site-header"><div class="header-inner"><a class="brand" href="{url('',l)}">{img('assets/logo.png','',lazy=False)}<span><strong>{esc(tr('Instituto Civitas Solis',l))}</strong><small>{esc(tr('Arte • Espiritualidade • Ciência',l))}</small></span></a><button class="menu-toggle js-only" aria-expanded="false" aria-controls="menu-principal">☰ <span>{UI[l]['menu']}</span></button><nav id="menu-principal" class="main-nav" aria-label="{UI[l]['menu']}">{nav(l,r)}</nav><details class="language"><summary><span class="language-code">{LANGS[l][1].upper()}</span>{LANGS[l][0]} <span aria-hidden="true">⌄</span></summary><div>{choices}</div></details></div></header>'''
+ choices=''.join(f'<a href="{url(r,k)}" lang="{k}" hreflang="{k}" aria-label="{esc(v[0])}" title="{esc(v[0])}"'+(' aria-current="true"' if k==l else '')+'>'+language_flag(k)+'</a>' for k,v in LANGS.items())
+ return f'''<a class="skip" href="#conteudo">{UI[l]['skip']}</a><header class="site-header"><div class="header-inner"><a class="brand" href="{url('',l)}">{img('assets/logo.png','',lazy=False)}<span><strong>{esc(tr('Instituto Civitas Solis',l))}</strong><small>{esc(tr('Arte • Espiritualidade • Ciência',l))}</small></span></a><button class="menu-toggle js-only" aria-expanded="false" aria-controls="menu-principal">☰ <span>{UI[l]['menu']}</span></button><nav id="menu-principal" class="main-nav" aria-label="{UI[l]['menu']}">{nav(l,r)}</nav><details class="language"><summary aria-label="{esc(LANGS[l][0])}" title="{esc(LANGS[l][0])}">{language_flag(l)}<span aria-hidden="true">⌄</span></summary><div>{choices}</div></details></div></header>'''
 def footer(l,r):
- return f'''<footer><div class="footer-grid wrap"><div><a class="brand" href="{url('',l)}">{img('assets/logo.png')}<strong>{esc(tr('Instituto Civitas Solis',l))}</strong></a>{para('Arte, Espiritualidade e Ciência para uma Nova Consciência.',l)}</div><div><h2>{UI[l]['menu']}</h2><nav>{nav(l,r)}</nav></div><div><h2>{esc(tr('Siga-nos',l))}</h2><nav>{link('https://www.instagram.com/institutocivitassolis/','Instagram','',True)}{link('https://www.youtube.com/@institutocivitassolis5117','YouTube','',True)}{link('https://www.facebook.com/institutocivitassolis','Facebook','',True)}</nav></div></div><p class="copyright">© 2026 {esc(tr('Instituto Civitas Solis',l))}</p></footer>'''
+ return f'''<footer><div class="footer-grid wrap"><div><a class="brand" href="{url('',l)}">{img('assets/logo.png')}<strong>{esc(tr('Instituto Civitas Solis',l))}</strong></a>{para('Arte, Espiritualidade e Ciência para uma Nova Consciência.',l)}</div><div><h2>{UI[l]['menu']}</h2><nav>{nav(l,r)}</nav></div><div><h2>{esc(tr('Siga-nos',l))}</h2><nav class="social-links">{link('https://www.instagram.com/institutocivitassolis/','Instagram','',True)}{link('https://www.youtube.com/@institutocivitassolis5117','YouTube','',True)}{link('https://www.facebook.com/institutocivitassolis','Facebook','',True)}</nav></div></div><p class="copyright">© 2026 {esc(tr('Instituto Civitas Solis',l))}</p></footer>'''
 def hero(title,desc,l,tone='warm',extra=''):
  return f'<section class="page-hero {tone}"><div class="wrap narrow"><h1>{esc(tr(title,l))}</h1>{para(desc,l) if desc else ""}{extra}</div></section>'
 def globals_section(l):
@@ -89,7 +96,7 @@ def document(l,r):
  canonical=ORIGIN+url(r,l)
  social=seo_metadata(l,tr(title,l)+' | Civitas Solis',desc,canonical,ORIGIN+url(),lambda p:ORIGIN+asset(p))
  alternates=''.join(f'<link rel="alternate" hreflang="{k}" href="{ORIGIN+url(r,k)}">' for k in LANGS)
- return f'''<!doctype html><html lang="{'pt-BR' if l=='pt' else l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(tr(title,l))} | Civitas Solis</title><meta name="description" content="{esc(desc)}"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="robots" content="{'noindex, nofollow' if NOINDEX else 'index, follow'}"><link rel="canonical" href="{canonical}">{alternates}{social}<link rel="icon" href="{asset('assets/logo.png')}"><link rel="stylesheet" href="{asset('assets/styles.css')}"><script src="{asset('assets/app.js')}" defer></script></head><body>{header(l,r)}<main id="conteudo">{BUILDERS[r](l)}</main>{footer(l,r)}<dialog class="video-dialog" aria-label="{UI[l]['play']}"><button class="dialog-close" data-close>{UI[l]['close']} ×</button><div class="player"></div><p><a data-watch target="_blank" rel="noopener noreferrer">YouTube ↗</a></p></dialog></body></html>'''
+ return f'''<!doctype html><html lang="{'pt-BR' if l=='pt' else l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(tr(title,l))} | Civitas Solis</title><meta name="description" content="{esc(desc)}"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="robots" content="{'noindex, nofollow' if NOINDEX else 'index, follow'}"><link rel="canonical" href="{canonical}">{alternates}{social}<link rel="icon" href="{asset('assets/logo.png')}"><link rel="stylesheet" href="{asset('assets/styles.css')}"><script src="{asset('assets/app.js')}" defer></script></head><body>{header(l,r)}<main id="conteudo">{BUILDERS[r](l)}</main>{footer(l,r)}<dialog class="video-dialog" aria-label="{UI[l]['play']}"><button class="dialog-close" data-close>{UI[l]['close']} ×</button><div class="player"></div><p><a data-watch target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube" class="social-icon-link">{social_icon("youtube")}</a></p></dialog></body></html>'''
 def main():
  OUT.mkdir(exist_ok=True)
  # Remove only generated HTML recorded by the previous build, within this artifact.

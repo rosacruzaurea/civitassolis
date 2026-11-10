@@ -2,6 +2,7 @@
 
 ## 0.1.2 · Em revisão
 
+- Links de redes sociais com ícones SVG locais e nomes acessíveis. Seletor de idiomas com bandeiras, sem alterar rotas.
 - Descrições específicas para 48 páginas/seis idiomas.
 - Correções pontuais do slogan e de dois parágrafos institucionais em alemão/italiano.
 - Open Graph e Organization/WebSite/WebPage derivados da origem e base de publicação.

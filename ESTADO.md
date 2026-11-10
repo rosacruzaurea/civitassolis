@@ -17,3 +17,5 @@ Próxima etapa: revisão humana do staging, conteúdo e integrações externas; 
 ## Candidato SEO
 
 Descrições em `content/seo.json`, geração em `tools/seo.py`, revisão editorial em [REVISAO-SEO](docs/REVISAO-SEO.md). Produção atual usa https://civitassolis.org.br/ e base raiz; staging permanece separado. Validar os dois destinos com `python3 tools/check_seo.py` após o build. Novos textos e imagem aguardam revisão humana; a descrição anterior do domínio não migrado é histórica.
+
+Complemento de interface no mesmo candidato: ícones SVG locais nas redes sociais, com aria-label/title e destinos preservados. Bandeiras no seletor dos seis idiomas, mantendo a rota atual ao trocar de idioma. Sem novas dependências ou páginas.

@@ -51,3 +51,14 @@
 @media(max-width:1023px){.panel-media.count-6,.panel-media.count-3{grid-template-columns:1fr;gap:14px}.panel-media img{max-height:280px}}
 
 .publication-copy .kicker,.publication-copy .author{color:#4b5563}
+
+/* Icon-only controls retain their accessible names and native navigation. */
+.social-icon{width:24px;height:24px;display:block;flex:none}
+a.social-icon-link{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:10px;text-decoration:none;vertical-align:middle}
+.main-nav a.social-icon-link{padding:10px}
+.button.social-icon-link{min-width:48px;padding:12px}
+.social-links{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.language-flag{display:block;width:30px;height:20px;flex:none;box-shadow:0 0 0 1px #1113;border-radius:2px}
+.language summary{min-height:44px;justify-content:center}
+.language>div{display:grid;grid-template-columns:repeat(2,1fr);min-width:128px;gap:4px}
+.language a{min-height:44px;min-width:48px;justify-content:center;border-radius:5px}

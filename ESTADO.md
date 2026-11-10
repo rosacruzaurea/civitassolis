@@ -20,4 +20,4 @@ Descrições em `content/seo.json`, geração em `tools/seo.py`, revisão editor
 
 Complemento de interface no mesmo candidato: ícones SVG locais nas redes sociais, com aria-label/title e destinos preservados. Bandeiras no seletor dos seis idiomas, mantendo a rota atual ao trocar de idioma. Sem novas dependências ou páginas.
 
-Correção de layout: ícones internos agrupados horizontalmente no menu e rodapé; redes externas lado a lado. Testes de navegador verificam alinhamento e alvos de toque.
+Navegação interna: YouTube e Instagram por extenso no cabeçalho e rodapé. Redes externas mantêm ícones lado a lado; os testes verificam essa distinção e os alvos de toque.

@@ -38,8 +38,7 @@ def icon(name):
  return f'<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="{paths[name]}"/></svg>'
 def nav(l,r):
  names=['Home','Missão, Visão e Valores','Publicações','YouTube','Instagram','Contato'];routes=ROUTES[:6]
- items=[f'<a href="{url(p,l)}"'+(' aria-current="page"' if p==r else '')+(f' class="social-icon-link" aria-label="{n}" title="{n}" data-social="{p}"' if p in {'youtube','instagram'} else '')+'>'+(social_icon(p) if p in {'youtube','instagram'} else esc(PUB[l]['eyebrow'].split(' Civitas')[0] if p=='publicacoes' else tr(n,l)))+'</a>' for n,p in zip(names,routes)]
- return ''.join(items[:3])+'<span class="nav-social-links">'+''.join(items[3:5])+'</span>'+items[5]
+ return ''.join(f'<a href="{url(p,l)}"'+(' aria-current="page"' if p==r else '')+'>'+esc(PUB[l]['eyebrow'].split(' Civitas')[0] if p=='publicacoes' else tr(n,l))+'</a>' for n,p in zip(names,routes))
 def header(l,r):
  choices=''.join(f'<a href="{url(r,k)}" lang="{k}" hreflang="{k}" aria-label="{esc(v[0])}" title="{esc(v[0])}"'+(' aria-current="true"' if k==l else '')+'>'+language_flag(k)+'</a>' for k,v in LANGS.items())
  return f'''<a class="skip" href="#conteudo">{UI[l]['skip']}</a><header class="site-header"><div class="header-inner"><a class="brand" href="{url('',l)}">{img('assets/logo.png','',lazy=False)}<span><strong>{esc(tr('Instituto Civitas Solis',l))}</strong><small>{esc(tr('Arte • Espiritualidade • Ciência',l))}</small></span></a><button class="menu-toggle js-only" aria-expanded="false" aria-controls="menu-principal">☰ <span>{UI[l]['menu']}</span></button><nav id="menu-principal" class="main-nav" aria-label="{UI[l]['menu']}">{nav(l,r)}</nav><details class="language"><summary aria-label="{esc(LANGS[l][0])}" title="{esc(LANGS[l][0])}">{language_flag(l)}<span aria-hidden="true">⌄</span></summary><div>{choices}</div></details></div></header>'''

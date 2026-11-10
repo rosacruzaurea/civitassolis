@@ -10,3 +10,5 @@ Leia [ESTADO.md](ESTADO.md), [README.md](README.md) e [docs/AMBIENTES.md](docs/A
 - Documentação pública deve ser curta, impessoal e técnica. Evidências operacionais e conversas ficam fora do repositório.
 - Conclua o build antes de iniciar os testes de navegador; não regenere `site/` durante a leitura pela fixture. Use artefato estável por rodada.
 - Em sincronização da referência, compare o catálogo completo (adições, retiradas e idiomas), não apenas a contagem anunciada de novos itens.
+
+- Preserve caminhos existentes. A cada mudança, confira a consistência do sitemap com as páginas publicáveis e registre explicitamente URLs novas, alteradas ou removidas na entrega; se não houver delta, declare isso.

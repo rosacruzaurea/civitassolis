@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate static HTML. Python standard library only; no browser framework."""
 import os,json,html,shutil,subprocess
+from seo import description as seo_description, metadata as seo_metadata
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'site'
@@ -84,10 +85,11 @@ def global_page(l):
 BUILDERS={'':home,'missao-visao-valores':mission,'publicacoes':publications,'youtube':youtube,'instagram':instagram,'contato':lambda l:hero(PAGES['wy']['text'][0],PAGES['wy']['text'][1],l,'blue')+contact(l),'trabalho-global':global_page,'livro':lambda l:publications(l,3)}
 def document(l,r):
  title={'':'Instituto Civitas Solis','missao-visao-valores':'Missão, Visão e Valores','publicacoes':PUB[l]['title'],'youtube':'YouTube Civitas Solis','instagram':'Instagram Civitas Solis','contato':'Entre em Contato','trabalho-global':'Trabalho Global','livro':PUB[l]['books'][3][0]}[r]
- desc=tr('Arte, Espiritualidade e Ciência para uma Nova Consciência.',l)
+ desc=seo_description(l,r)
  canonical=ORIGIN+url(r,l)
+ social=seo_metadata(l,tr(title,l)+' | Civitas Solis',desc,canonical,ORIGIN+url(),lambda p:ORIGIN+asset(p))
  alternates=''.join(f'<link rel="alternate" hreflang="{k}" href="{ORIGIN+url(r,k)}">' for k in LANGS)
- return f'''<!doctype html><html lang="{'pt-BR' if l=='pt' else l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(tr(title,l))} | Civitas Solis</title><meta name="description" content="{esc(desc)}"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="robots" content="{'noindex, nofollow' if NOINDEX else 'index, follow'}"><link rel="canonical" href="{canonical}">{alternates}<link rel="icon" href="{asset('assets/logo.png')}"><link rel="stylesheet" href="{asset('assets/styles.css')}"><script src="{asset('assets/app.js')}" defer></script></head><body>{header(l,r)}<main id="conteudo">{BUILDERS[r](l)}</main>{footer(l,r)}<dialog class="video-dialog" aria-label="{UI[l]['play']}"><button class="dialog-close" data-close>{UI[l]['close']} ×</button><div class="player"></div><p><a data-watch target="_blank" rel="noopener noreferrer">YouTube ↗</a></p></dialog></body></html>'''
+ return f'''<!doctype html><html lang="{'pt-BR' if l=='pt' else l}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(tr(title,l))} | Civitas Solis</title><meta name="description" content="{esc(desc)}"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="robots" content="{'noindex, nofollow' if NOINDEX else 'index, follow'}"><link rel="canonical" href="{canonical}">{alternates}{social}<link rel="icon" href="{asset('assets/logo.png')}"><link rel="stylesheet" href="{asset('assets/styles.css')}"><script src="{asset('assets/app.js')}" defer></script></head><body>{header(l,r)}<main id="conteudo">{BUILDERS[r](l)}</main>{footer(l,r)}<dialog class="video-dialog" aria-label="{UI[l]['play']}"><button class="dialog-close" data-close>{UI[l]['close']} ×</button><div class="player"></div><p><a data-watch target="_blank" rel="noopener noreferrer">YouTube ↗</a></p></dialog></body></html>'''
 def main():
  OUT.mkdir(exist_ok=True)
  # Remove only generated HTML recorded by the previous build, within this artifact.
@@ -108,7 +110,7 @@ def main():
  entries=''.join('<url><loc>'+ORIGIN+url(r,l)+'</loc></url>' for l in LANGS for r in ROUTES)
  (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+entries+'</urlset>')
  sha=os.environ.get('SOURCE_COMMIT') or subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
- manifest={'source_commit':sha,'base_path':BASE,'noindex':NOINDEX,'pages':pages,'languages':list(LANGS),'videos':len(VIDEOS),'publications':len(PA)}
+ manifest={'source_commit':sha,'base_path':BASE,'origin':ORIGIN,'noindex':NOINDEX,'pages':pages,'languages':list(LANGS),'videos':len(VIDEOS),'publications':len(PA)}
  (OUT/'build-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
  print(json.dumps({'pages':len(pages),'videos':len(VIDEOS),'publications':len(PA),'base':BASE,'noindex':NOINDEX}))
 if __name__=='__main__':main()

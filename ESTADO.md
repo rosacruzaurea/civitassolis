@@ -13,3 +13,7 @@ Textos e traduções extraídos da referência pública. O formulário simulado 
 Builds de raiz e staging, verificação estrutural e 107 verificações locais de navegador aprovados para a atualização. Cobertura inclui desktop, mobile, idiomas, catálogo, links de compra, foco nos painéis e conteúdo sem JavaScript. O PR registra SHA, CI e publicação do candidato vigente. Execuções e evidências atuais ficam no PR e no GitHub Actions. Staging separado, sem CNAME e com noindex. Produção e domínio original não migrados.
 
 Próxima etapa: revisão humana do staging, conteúdo e integrações externas; aprovar o PR antes de produção. A checagem semanal de vídeos prepara PR e staging, nunca merge automático.
+
+## Candidato SEO
+
+Descrições em `content/seo.json`, geração em `tools/seo.py`, revisão editorial em [REVISAO-SEO](docs/REVISAO-SEO.md). Produção atual usa https://civitassolis.org.br/ e base raiz; staging permanece separado. Validar os dois destinos com `python3 tools/check_seo.py` após o build. Novos textos e imagem aguardam revisão humana; a descrição anterior do domínio não migrado é histórica.

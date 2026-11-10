@@ -1,0 +1,67 @@
+{
+  "sharing_image": "assets/hero-2.jpg",
+  "sharing_image_width": 1920,
+  "sharing_image_height": 1281,
+  "descriptions": {
+    "pt": {
+      "": "Conheça o Instituto Civitas Solis, sua atuação filosófico-cultural e o diálogo entre arte, espiritualidade e ciência para o desenvolvimento humano.",
+      "missao-visao-valores": "Conheça a missão, a visão e os valores do Instituto Civitas Solis, que orientam suas atividades culturais, filosóficas e de desenvolvimento humano.",
+      "publicacoes": "Explore o acervo de livros do Civitas Solis sobre arte, espiritualidade, ciência e tradição hermética, com apresentações das obras e links de compra.",
+      "youtube": "Explore os vídeos do Instituto Civitas Solis sobre arte, espiritualidade e ciência. Pesquise títulos e acesse entrevistas e diálogos no YouTube.",
+      "instagram": "Acesse o perfil oficial do Instituto Civitas Solis no Instagram e escolha carregar suas publicações ou visitar diretamente a rede social.",
+      "contato": "Entre em contato com o Instituto Civitas Solis pelos canais oficiais no Instagram, Facebook e YouTube disponíveis nesta página.",
+      "trabalho-global": "Conheça as publicações, os diálogos e as parcerias do Civitas Solis que aproximam culturas, tradições e diferentes formas de conhecimento.",
+      "livro": "Conheça A Renascença Oculta, de Jesús Zatón, sobre arte renascentista, tradição hermética e alquimia. Consulte a apresentação e o link de compra."
+    },
+    "en": {
+      "": "Discover the Civitas Solis Institute, its philosophical and cultural work, and the dialogue between art, spirituality and science for human development.",
+      "missao-visao-valores": "Discover the mission, vision and values that guide the Civitas Solis Institute's cultural, philosophical and human development activities.",
+      "publicacoes": "Explore the Civitas Solis book collection on art, spirituality, science and the Hermetic tradition, with descriptions and purchase links.",
+      "youtube": "Explore videos from the Civitas Solis Institute on art, spirituality and science. Search titles and access interviews and dialogues on YouTube.",
+      "instagram": "Visit the Civitas Solis Institute's official Instagram profile. Choose to load its posts here or open the profile directly on Instagram.",
+      "contato": "Contact the Civitas Solis Institute through its official Instagram, Facebook and YouTube channels, linked on this page.",
+      "trabalho-global": "Discover Civitas Solis publications, dialogues and partnerships that connect cultures, traditions and different forms of knowledge.",
+      "livro": "Discover A Renascença Oculta by Jesús Zatón, on Renaissance art, the Hermetic tradition and alchemy. Read the introduction and find the purchase link."
+    },
+    "es": {
+      "": "Conoce el Instituto Civitas Solis, su labor filosófica y cultural, y el diálogo entre arte, espiritualidad y ciencia para el desarrollo humano.",
+      "missao-visao-valores": "Conoce la misión, la visión y los valores que orientan las actividades culturales, filosóficas y de desarrollo humano del Instituto Civitas Solis.",
+      "publicacoes": "Explora el catálogo de libros de Civitas Solis sobre arte, espiritualidad, ciencia y tradición hermética, con descripciones y enlaces de compra.",
+      "youtube": "Explora los vídeos del Instituto Civitas Solis sobre arte, espiritualidad y ciencia. Busca títulos y accede a entrevistas y diálogos en YouTube.",
+      "instagram": "Accede al perfil oficial del Instituto Civitas Solis en Instagram. Puedes cargar sus publicaciones aquí o visitar directamente la red social.",
+      "contato": "Contacta con el Instituto Civitas Solis a través de sus canales oficiales de Instagram, Facebook y YouTube, enlazados en esta página.",
+      "trabalho-global": "Conoce las publicaciones, los diálogos y las alianzas de Civitas Solis que conectan culturas, tradiciones y distintas formas de conocimiento.",
+      "livro": "Conoce A Renascença Oculta, de Jesús Zatón, sobre arte renacentista, tradición hermética y alquimia. Consulta su presentación y el enlace de compra."
+    },
+    "fr": {
+      "": "Découvrez l'Institut Civitas Solis, ses activités philosophiques et culturelles, et le dialogue entre art, spiritualité et science au service de l'être humain.",
+      "missao-visao-valores": "Découvrez la mission, la vision et les valeurs qui orientent les activités culturelles et philosophiques de l'Institut Civitas Solis.",
+      "publicacoes": "Explorez les livres de Civitas Solis sur l'art, la spiritualité, la science et la tradition hermétique, avec leurs présentations et liens d'achat.",
+      "youtube": "Explorez les vidéos de l'Institut Civitas Solis sur l'art, la spiritualité et la science. Recherchez des titres et accédez aux entretiens sur YouTube.",
+      "instagram": "Accédez au profil Instagram officiel de l'Institut Civitas Solis. Choisissez de charger ses publications ici ou de visiter directement le réseau social.",
+      "contato": "Contactez l'Institut Civitas Solis par ses canaux officiels sur Instagram, Facebook et YouTube, accessibles depuis cette page.",
+      "trabalho-global": "Découvrez les publications, les dialogues et les partenariats de Civitas Solis qui relient les cultures, les traditions et les formes de connaissance.",
+      "livro": "Découvrez A Renascença Oculta de Jesús Zatón, sur l'art de la Renaissance, l'hermétisme et l'alchimie. Consultez sa présentation et le lien d'achat."
+    },
+    "de": {
+      "": "Entdecken Sie das Civitas Solis Institut, seine philosophisch-kulturelle Arbeit und den Dialog zwischen Kunst, Spiritualität und Wissenschaft.",
+      "missao-visao-valores": "Lernen Sie die Mission, die Vision und die Werte kennen, die die kulturelle und philosophische Arbeit des Civitas Solis Instituts leiten.",
+      "publicacoes": "Entdecken Sie die Bücher von Civitas Solis über Kunst, Spiritualität, Wissenschaft und Hermetik, mit Beschreibungen und Links zum Kauf.",
+      "youtube": "Entdecken Sie Videos des Civitas Solis Instituts über Kunst, Spiritualität und Wissenschaft. Suchen Sie nach Titeln und öffnen Sie Interviews auf YouTube.",
+      "instagram": "Besuchen Sie das offizielle Instagram-Profil des Civitas Solis Instituts. Laden Sie die Beiträge hier oder öffnen Sie das Profil direkt auf Instagram.",
+      "contato": "Kontaktieren Sie das Civitas Solis Institut über seine offiziellen Kanäle auf Instagram, Facebook und YouTube, die auf dieser Seite verlinkt sind.",
+      "trabalho-global": "Lernen Sie die Publikationen, Dialoge und Partnerschaften von Civitas Solis kennen, die Kulturen, Traditionen und Wissensformen miteinander verbinden.",
+      "livro": "Entdecken Sie A Renascença Oculta von Jesús Zatón über Renaissancekunst, Hermetik und Alchemie. Lesen Sie die Vorstellung und folgen Sie dem Link zum Kauf."
+    },
+    "it": {
+      "": "Scopri l'Istituto Civitas Solis, le sue attività filosofiche e culturali e il dialogo tra arte, spiritualità e scienza per lo sviluppo umano.",
+      "missao-visao-valores": "Scopri la missione, la visione e i valori che orientano le attività culturali, filosofiche e di sviluppo umano dell'Istituto Civitas Solis.",
+      "publicacoes": "Esplora i libri di Civitas Solis su arte, spiritualità, scienza e tradizione ermetica, con presentazioni delle opere e collegamenti per l'acquisto.",
+      "youtube": "Esplora i video dell'Istituto Civitas Solis su arte, spiritualità e scienza. Cerca i titoli e accedi a interviste e dialoghi su YouTube.",
+      "instagram": "Accedi al profilo Instagram ufficiale dell'Istituto Civitas Solis. Scegli se caricare qui le pubblicazioni o visitare direttamente il social network.",
+      "contato": "Contatta l'Istituto Civitas Solis attraverso i canali ufficiali su Instagram, Facebook e YouTube, disponibili in questa pagina.",
+      "trabalho-global": "Scopri le pubblicazioni, i dialoghi e le collaborazioni di Civitas Solis che collegano culture, tradizioni e diverse forme di conoscenza.",
+      "livro": "Scopri A Renascença Oculta di Jesús Zatón, sull'arte rinascimentale, la tradizione ermetica e l'alchimia. Leggi la presentazione e accedi al link d'acquisto."
+    }
+  }
+}

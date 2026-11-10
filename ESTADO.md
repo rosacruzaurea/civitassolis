@@ -1,6 +1,6 @@
 # Estado
 
-Versão 0.1.1 em revisão, branch `feat/static-site`.
+Candidato SEO e interface em revisão no PR #2, branch `feat/seo-metadata`. Produção permanece na main `ba1d46e`; não integrada por este candidato.
 
 ## Conteúdo
 
@@ -19,3 +19,5 @@ Próxima etapa: revisão humana do staging, conteúdo e integrações externas; 
 Descrições em `content/seo.json`, geração em `tools/seo.py`, revisão editorial em [REVISAO-SEO](docs/REVISAO-SEO.md). Produção atual usa https://civitassolis.org.br/ e base raiz; staging permanece separado. Validar os dois destinos com `python3 tools/check_seo.py` após o build. Novos textos e imagem aguardam revisão humana; a descrição anterior do domínio não migrado é histórica.
 
 Complemento de interface no mesmo candidato: ícones SVG locais nas redes sociais, com aria-label/title e destinos preservados. Bandeiras no seletor dos seis idiomas, mantendo a rota atual ao trocar de idioma. Sem novas dependências ou páginas.
+
+Correção de layout: ícones internos agrupados horizontalmente no menu e rodapé; redes externas lado a lado. Testes de navegador verificam alinhamento e alvos de toque.
